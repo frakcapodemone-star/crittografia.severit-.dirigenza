@@ -1,0 +1,1 @@
+// WebCrypto SHA-256 handled natively — no extra code needed

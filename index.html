@@ -1,0 +1,23 @@
+<!DOCTYPE html><html lang="it"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Accesso</title>
+<style>
+body{margin:0;background:#0f0f0f;color:#fff;font-family:sans-serif}
+#box{width:380px;margin:12% auto;background:#1a1a1a;padding:25px;border-radius:10px;box-shadow:0 0 30px rgba(0,0,0,.4);text-align:center}
+input{width:92%;padding:12px;margin-top:15px;border-radius:6px;border:none;font-size:17px;background:#111;color:#fff}
+button{padding:12px 25px;margin-top:20px;background:#3f7cff;border:none;color:#fff;border-radius:6px;cursor:pointer;font-size:17px}
+button:hover{background:#2f5ed8}
+#err{color:#ff4f4f;margin-top:15px;font-size:15px}
+</style>
+</head>
+<body>
+<div id="box">
+<h2>Accesso Riservato</h2>
+<p>Inserisci la password</p>
+<input id="pw" type="password" placeholder="Password">
+<button onclick="chk()">Entra</button>
+<p id="err"></p>
+</div>
+<script src="crypto.js"></script>
+<script src="script.js"></script>
+</body></html>
